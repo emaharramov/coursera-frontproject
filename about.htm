@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="bg-gradient-to-r from-gray-800 to-gray-600 text-white px-6 py-3 flex items-center justify-between"
+      >
+        <!-- Logo -->
+        <div class="flex items-center space-x-2">
+          <img
+            src="https://underthesuntravelagency.com/wp-content/uploads/2024/04/under-the-sun-travel-logo.png"
+            alt="Logo"
+            class="w-8 h-8"
+          />
+          <!-- Replace with your logo URL -->
+          <span class="font-bold text-xl">TravelBloom</span>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="flex space-x-6">
+          <a href="./index.htm" class="text-white hover:text-gray-300">Home</a>
+          <a href="./about.htm" class="text-white hover:text-gray-300"
+            >About Us</a
+          >
+          <a href="./contact.htm" class="text-white hover:text-gray-300"
+            >Contact Us</a
+          >
+        </div>
+
+        <!-- Search Bar -->
+        <div class="flex items-center bg-white rounded-full overflow-hidden">
+          <input
+            type="text"
+            placeholder="Search"
+            class="px-4 py-1 text-gray-800 outline-none"
+          />
+          <button class="px-3 text-gray-500 hover:text-gray-700">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M10 18c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8zm8.707-4.293l5.293 5.293-1.414 1.414-5.293-5.293c-.367.448-.783.87-1.246 1.246zm-8.707 2.293c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6z"
+              />
+            </svg>
+          </button>
+          <button class="px-4 py-1 bg-teal-700 text-white hover:bg-teal-800">
+            Search
+          </button>
+          <button class="px-4 py-1 bg-gray-500 text-white hover:bg-gray-600">
+            Clear
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- About Us Section -->
+    <section
+      class="relative h-screen bg-cover bg-center"
+      style="
+        background-image: url('https://media.nomadicmatt.com/2022/newnycguidemain.jpeg');
+      "
+     >
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-teal-900 bg-opacity-50"></div>
+
+      <!-- Content Container -->
+      <div
+        class="relative z-10 h-full flex flex-col items-start justify-center space-y-8 px-6 lg:px-12"
+      >
+        <!-- About Us Heading -->
+        <h1 class="text-6xl mx-auto font-bold text-white">ABOUT US</h1>
+
+        <!-- Introduction Text -->
+        <div class="max-w-2xl mx-auto text-white space-y-4">
+          <p>
+            Welcome to Our Company! We are a team of passionate individuals
+            dedicated to providing excellent services/products to our customers.
+            Our mission is to
+            <span class="font-semibold">provide the best experience</span> for
+            people traveling to different destinations around the world.
+          </p>
+          <p>
+            Our values include integrity, innovation, customer satisfaction, and
+            teamwork. We believe in
+            <span class="font-semibold">putting our customers first</span> and
+            <span class="font-semibold">working together</span> to achieve our
+            goals. Feel free to explore our website to learn more about what we
+            offer!
+          </p>
+        </div>
+
+        <!-- Our Team Section -->
+        <h2 class="text-4xl mx-auto font-bold text-white">Our Team</h2>
+        <div class="flex flex-wrap space-x-6 mx-auto">
+          <!-- Team Member Card -->
+          <div
+            class="bg-white bg-opacity-20 backdrop-blur-md p-6 rounded-lg shadow-lg text-center w-60"
+          >
+            <img
+              src="https://example.com/user-icon.jpg"
+              alt="John Doe"
+              class="w-12 h-12 mx-auto mb-4"
+            />
+            <h3 class="text-white font-semibold">John Doe</h3>
+            <p class="text-white text-sm mb-4">John is responsible for...</p>
+            <button class="bg-blue-700 text-white px-4 py-1 rounded-full">
+              CEO
+            </button>
+          </div>
+
+          <!-- Team Member Card -->
+          <div
+            class="bg-white bg-opacity-20 backdrop-blur-md p-6 rounded-lg shadow-lg text-center w-60"
+          >
+            <img
+              src="https://example.com/user-icon.jpg"
+              alt="Celina Thomas"
+              class="w-12 h-12 mx-auto mb-4"
+            />
+            <h3 class="text-white font-semibold">Celina Thomas</h3>
+            <p class="text-white text-sm mb-4">
+              Celina Thomas is responsible for...
+            </p>
+            <button class="bg-blue-700 text-white px-4 py-1 rounded-full">
+              Team Lead
+            </button>
+          </div>
+
+          <!-- Team Member Card -->
+          <div
+            class="bg-white bg-opacity-20 backdrop-blur-md p-6 rounded-lg shadow-lg text-center w-60"
+          >
+            <img
+              src="https://example.com/user-icon.jpg"
+              alt="Mike Tysen"
+              class="w-12 h-12 mx-auto mb-4"
+            />
+            <h3 class="text-white font-semibold">Mike Tysen</h3>
+            <p class="text-white text-sm mb-4">
+              Mike Tysen is responsible for...
+            </p>
+            <button class="bg-blue-700 text-white px-4 py-1 rounded-full">
+              Delivery Head
+            </button>
+          </div>
+        </div>
+      </div>
+      <section
+        class="relative h-screen bg-cover bg-center"
+        style="
+          background-image: url('https://media.nomadicmatt.com/2022/newnycguidemain.jpeg');
+        "
+      >
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-teal-900 bg-opacity-50"></div>
+
+        <!-- Content Container -->
+        <div
+          class="relative z-10 h-full flex flex-col items-center justify-center px-6 lg:px-12 space-y-12"
+        >
+          <!-- Company History Section -->
+          <div class="text-center text-white max-w-3xl space-y-4">
+            <h2 class="text-5xl font-bold">Company History</h2>
+            <p>
+              Founded in 2018 by avid travelers, our journey began with a vision
+              to simplify travel planning by offering personalized
+              recommendations tailored to individual preferences. Starting as a
+              passion project, our commitment to curating unique travel
+              experiences led to the official launch of our platform, driven by
+              a team enthusiastic about exploring the world. Over the years,
+              we've evolved into a trusted hub, leveraging cutting-edge
+              technology and expert insights to provide tailored destination
+              suggestions that resonate with diverse travelers.
+            </p>
+          </div>
+
+          <!-- Our Location Section -->
+          <div class="text-white max-w-4xl w-full text-left">
+            <h3 class="text-4xl font-bold mb-6">Our Location</h3>
+            <div
+              class="flex flex-col lg:flex-row lg:space-x-6 space-y-4 lg:space-y-0"
+            >
+              <!-- Location Image 1 -->
+              <div
+                class="bg-white bg-opacity-20 backdrop-blur-md p-4 rounded-lg shadow-lg"
+              >
+                <img
+                  src="https://example.com/location1.jpg"
+                  alt="Location 1"
+                  class="rounded-lg"
+                />
+              </div>
+              <!-- Location Image 2 -->
+              <div
+                class="bg-white bg-opacity-20 backdrop-blur-md p-4 rounded-lg shadow-lg"
+              >
+                <img
+                  src="https://example.com/location2.jpg"
+                  alt="Location 2"
+                  class="rounded-lg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
